@@ -8,4 +8,5 @@ for i in range(int(N)):
     list1.append({'n': n, 'M': float(M), 'Ph': float(Ph), 'Ch': float(Ch)})
 find_name = input("Find name of student:")
 for i in range(int(N)):
-    if list1[i]['n'] == find_name
+    if list1[i]['n'] == find_name:
+        print((list1[i]['M'] + list1[i]['Ph'] + list1[i]['Ch']) / 3)
