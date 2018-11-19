@@ -12,3 +12,10 @@ memory_usage : 3582 MB
 IO : 94635.005859375
 Network : 358.07084369659424
 
+SNAPSHOT 0 : 2018-11-19 09:01:55.047137 : 
+CPU_Load : 0.0%
+memory_size : 9728000
+memory_usage : 3692896256
+IO : 99389044736
+Network : 376760988
+
