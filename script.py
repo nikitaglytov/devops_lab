@@ -9,9 +9,9 @@ from time import sleep
 
 def status():
     get_info = {"CPU_Load": str(psutil.cpu_percent()) + "%",
-                "memory_size": str(psutil.Process().memory_info().rss) ,
-                "memory_usage": str(psutil.virtual_memory().used) ,
-                "IO": str(psutil.disk_io_counters().write_bytes) ,
+                "memory_size": str(psutil.Process().memory_info().rss),
+                "memory_usage": str(psutil.virtual_memory().used),
+                "IO": str(psutil.disk_io_counters().write_bytes),
                 "Network": str(psutil.net_io_counters().bytes_sent)
                 }
     return get_info
