@@ -1,0 +1,5 @@
+apache_vhosts:
+  - servername: www.domain.tld
+    documentroot: /www/domain
+  - servername: www.domain.tld
+    documentroot: /www/domain
